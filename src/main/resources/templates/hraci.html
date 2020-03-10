@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs"
       xmlns:th="http://www.thymeleaf.org">
 
+
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,17 +10,17 @@
     <meta name="robots" content="index, follow"/>
     <meta name="keywords" content="java, web"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Pexeso</title>
+    <title>Nejlepší hráči</title>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:400,400i,700,700i&amp;subset=latin-ext"
           rel="stylesheet"/>
     <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="${'css/bootstrap.min.css'}"/>
-
     <link rel="shortcut icon" href="../static/images/dog_ico" type="image/x-icon" th:href="${'images/dog_ico'}"/>
 </head>
 
 <body>
 <!--/*@thymesVar id="balicekPexesa" type="java.util.List<cz.czechitas.webapp.kartaPexesa>"*/-->
 <!--/*@thymesVar id="linkNaObrazek" type="java.lang.String"*/-->
+<!--/*@thymesVar id="poradi" type="java.lang.Integer"*/-->
 
 <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-gradient-success">
     <div class="container">
@@ -51,25 +52,39 @@
 <div class="container">
     <div class="jumbotron">
         <br>
-        <h1 class="display-3">Pexeso</h1>
-
-        <table class="center">
-            <tr th:each="jedenObrazek : ${balicekPexesa}">
-                <img src="../static/images/am.jpg" th:src="${jedenObrazek.obrazek}" class="obrazek_pexesa" alt="Amálka"
-                     th:alt="${jedenObrazek.postava}"/>
-            </tr>
-        </table>
-
-        <br><br><br><br><br><br><br>
-        <hr class="my-4">
-
-        <p>Přesný čas: <span th:text="${#temporals.format(datum, 'd. M. yyyy HH:mm:ss')}">4. 3. 2020 15:26:26</span></p>
+        <h1 class="display-3">Nejlepší hráčky pexesové ligy</h1><br>
+        <h3>Stav žebříčku ke dni <span th:text="${#temporals.format(datum, 'd. M. yyyy')}">4. 3. 2020</span></h3>
         <br>
-        <button class="btn btn-info" onclick="window.location.reload();">Zamíchej kartičky</button>
-        <footer class="paticka">
+        <table class="center">
+            <table class="table table-hover">
+                <thead>
+                <tr class="table-primary">
+                    <th scope="col">#</th>
+                    <th scope="col">Jméno</th>
+                    <th scope="col">Příjmení</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Vyhrané turnaje</th>
+                    <th scope="col">Odehrané turnaje</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="jedenHrac : ${zebricekHracu}" class="table-secondary">
+                    <td><p th:text="${jedenHrac.poradi}">0</p></td>
+                    <td><p th:text="${jedenHrac.jmeno}" class="">Jenda</p></td>
+                    <td><p th:text="${jedenHrac.prijmeni}" class="">Perla</p></td>
+                    <td><p th:text="${jedenHrac.email}" class="">vikuna@seznam.cz</p></td>
+                    <td><p th:text="${jedenHrac.pocetVyhranychTurnaju}" class="">100</p></td>
+                    <td><p th:text="${jedenHrac.pocetTurnajuCelkem}" class="">500</p></td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="my-4">
             <br>
-            <p>@2020 Martina Burjanová, CSS by <a href="https://bootswatch.com/materia/">Materia Bootswatch</a></p>
-        </footer>
+
+            <footer class="paticka">
+                <br>
+                <p>@2020 Martina Burjanová, CSS by <a href="https://bootswatch.com/materia/">Materia Bootswatch</a></p>
+            </footer>
 
 </body>
 </html>

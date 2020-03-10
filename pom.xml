@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cz.czechitas.java2</groupId>
-    <artifactId>ukol02</artifactId>
+    <artifactId>ukol03</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
-    <name>ukol02</name>
+    <name>ukol03</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -53,7 +53,7 @@
     </dependencies>
 
     <build>
-        <finalName>ukol02</finalName>
+        <finalName>ukol03</finalName>
 
         <plugins>
             <plugin>
