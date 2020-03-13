@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f83d5eef-66a3-4693-99bf-9adfb56c57d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f83d5eef-66a3-4693-99bf-9adfb56c57d8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +92,7 @@
       <workItem from="1583942365131" duration="3236000" />
       <workItem from="1584004635600" duration="447000" />
       <workItem from="1584018306521" duration="82000" />
-      <workItem from="1584092005359" duration="812000" />
+      <workItem from="1584092005359" duration="1205000" />
     </task>
     <task id="LOCAL-00001" summary="added GitHub settings">
       <created>1584092611581</created>
