@@ -94,8 +94,16 @@
       <workItem from="1583942365131" duration="3236000" />
       <workItem from="1584004635600" duration="447000" />
       <workItem from="1584018306521" duration="82000" />
-      <workItem from="1584092005359" duration="495000" />
+      <workItem from="1584092005359" duration="812000" />
     </task>
+    <task id="LOCAL-00001" summary="added GitHub settings">
+      <created>1584092611581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584092611581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +119,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added GitHub settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="added GitHub settings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="587" y="213" width="800" height="677" key="#Deployment" timestamp="1584092351196">
@@ -139,10 +151,10 @@
       <screen x="75" y="27" width="1845" height="1053" />
     </state>
     <state x="730" y="301" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.27.1845.1053@75.27.1845.1053" timestamp="1583697362137" />
-    <state x="547" y="93" width="891" height="918" key="CommitChangelistDialog2" timestamp="1584092364211">
+    <state x="547" y="93" width="891" height="918" key="CommitChangelistDialog2" timestamp="1584092611482">
       <screen x="75" y="27" width="1845" height="1053" />
     </state>
-    <state x="547" y="93" width="891" height="918" key="CommitChangelistDialog2/75.27.1845.1053@75.27.1845.1053" timestamp="1584092364211" />
+    <state x="547" y="93" width="891" height="918" key="CommitChangelistDialog2/75.27.1845.1053@75.27.1845.1053" timestamp="1584092611482" />
     <state x="175" y="125" width="1645" height="855" key="DiffContextDialog" timestamp="1584092303939">
       <screen x="75" y="27" width="1845" height="1053" />
     </state>
