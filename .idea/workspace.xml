@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f83d5eef-66a3-4693-99bf-9adfb56c57d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hraci.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hraci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ukol-03-Burjanova" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +21,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/mbrezina/ukol-03" />
+      </set>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -49,11 +57,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ukol-01-Burjanova" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="ServiceViewManager">
     <option name="showServicesTree" value="false" />
@@ -85,13 +94,29 @@
       <workItem from="1583942365131" duration="3236000" />
       <workItem from="1584004635600" duration="447000" />
       <workItem from="1584018306521" duration="82000" />
+      <workItem from="1584092005359" duration="495000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="587" y="213" width="800" height="677" key="#Deployment" timestamp="1584092351196">
+      <screen x="75" y="27" width="1845" height="1053" />
+    </state>
+    <state x="587" y="213" width="800" height="677" key="#Deployment/75.27.1845.1053@75.27.1845.1053" timestamp="1584092351196" />
     <state x="3712" y="327" width="800" height="677" key="#Project_Structure" timestamp="1583138832039">
       <screen x="3120" y="53" width="1920" height="1200" />
     </state>
@@ -114,6 +139,14 @@
       <screen x="75" y="27" width="1845" height="1053" />
     </state>
     <state x="730" y="301" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.27.1845.1053@75.27.1845.1053" timestamp="1583697362137" />
+    <state x="547" y="93" width="891" height="918" key="CommitChangelistDialog2" timestamp="1584092364211">
+      <screen x="75" y="27" width="1845" height="1053" />
+    </state>
+    <state x="547" y="93" width="891" height="918" key="CommitChangelistDialog2/75.27.1845.1053@75.27.1845.1053" timestamp="1584092364211" />
+    <state x="175" y="125" width="1645" height="855" key="DiffContextDialog" timestamp="1584092303939">
+      <screen x="75" y="27" width="1845" height="1053" />
+    </state>
+    <state x="175" y="125" width="1645" height="855" key="DiffContextDialog/75.27.1845.1053@75.27.1845.1053" timestamp="1584092303939" />
     <state x="735" y="261" width="416" height="425" key="FileChooserDialogImpl" timestamp="1584018353438">
       <screen x="75" y="27" width="1845" height="1053" />
     </state>
@@ -212,6 +245,10 @@
     <state width="1799" height="233" key="GridCell.Tab.1.right/75.27.1845.1053/1920.0.1920.1080@75.27.1845.1053" timestamp="1583957292897" />
     <state width="1799" height="315" key="GridCell.Tab.1.right/75.27.1845.1053@75.27.1845.1053" timestamp="1583697733846" />
     <state width="1799" height="286" key="GridCell.Tab.1.right/75.27.3765.1053@75.27.3765.1053" timestamp="1583332135046" />
+    <state x="479" y="187" key="SettingsEditor" timestamp="1584092499088">
+      <screen x="75" y="27" width="1845" height="1053" />
+    </state>
+    <state x="479" y="187" key="SettingsEditor/75.27.1845.1053@75.27.1845.1053" timestamp="1584092499088" />
     <state x="695" y="413" key="com.intellij.ide.util.TipDialog" timestamp="1584018306587">
       <screen x="75" y="27" width="1845" height="1053" />
     </state>
