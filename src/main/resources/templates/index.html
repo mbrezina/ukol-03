@@ -35,7 +35,7 @@
                     <a class="nav-link" href="index.html">Pexeso</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="hraci.html">Nejlepší hráčky</a>
+                    <a class="nav-link" href="hracky.html">Nejlepší hráčky</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://st3.czechitas.cikanek.net/ukol01/">Autorka</a>
@@ -78,11 +78,13 @@
             </tr>
         </table>
 
-        <br><br><br><br><br><br><br>
 
         <!--<p>Přesný čas: <span th:text="${#temporals.format(datum, 'd. M. yyyy HH:mm:ss')}">4. 3. 2020 15:26:26</span></p>-->
-        <br>
+        <br><br>
         <button class="btn btn-info" onclick="window.location.reload();">Zamíchej kartičky</button>
+
+        <a href="hracky.html" th:href="@{/hracky}" class="btn btn-warning">Žebříček hráček</a>
+
         <footer class="paticka">
             <br>
             <p>@2020 Martina Burjanová, CSS by <a href="https://bootswatch.com/materia/">Materia Bootswatch</a></p>

@@ -4,18 +4,13 @@ import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.*;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.util.*;
-import java.util.stream.Stream;
 
 import static java.util.Arrays.*;
 
 @Controller
 public class HlavniController {
-
-    List <Polozka> polozkyKosiku = new Arraylist<>();
 
     private static final List<kartaPexesa> SEZNAMKARTICEK = asList(
             new kartaPexesa("images/amal.jpg", "Amálka", 1),
@@ -45,7 +40,7 @@ public class HlavniController {
     );
 
 
-    @RequestMapping({"/", "/index.html"})
+    @RequestMapping({"/", "/index"})
     public ModelAndView zobrazIndex() {
 
         ModelAndView drzak = new ModelAndView("index");
@@ -55,17 +50,17 @@ public class HlavniController {
         return drzak;
     }
 
-    @RequestMapping("/hraci.html")
+    @RequestMapping("/hracky")
     public ModelAndView zobrazHrace() {
 
-        ModelAndView drzak = new ModelAndView("hraci");
+        ModelAndView drzak = new ModelAndView("hracky");
         SEZNAMHRACU.sort(Comparator.comparing(Hrac::getPocetVyhranychTurnaju).reversed());
         for (int i = 0; i < SEZNAMHRACU.size(); i++) {
             SEZNAMHRACU.get(i).setPoradi(++i);
             --i;
         }
 
-        drzak.addObject("zebricekHracu", SEZNAMHRACU);
+        drzak.addObject("zebricekHracek", SEZNAMHRACU);
         drzak.addObject("datum", LocalDateTime.now());
         return drzak;
 
