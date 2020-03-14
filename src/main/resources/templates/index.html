@@ -21,7 +21,9 @@
 <!--/*@thymesVar id="balicekPexesa" type="java.util.List<cz.czechitas.webapp.kartaPexesa>"*/-->
 <!--/*@thymesVar id="linkNaObrazek" type="java.lang.String"*/-->
 
-<div th:insert="fragments/top_menu :: top_menu"></div>
+
+<div th:insert="fragments/menu :: menu">menu</div>
+
 
 <div class="container">
     <div class="jumbotron">
@@ -62,6 +64,8 @@
 
         <footer class="paticka">
             <br>
-            <div th:insert="fragments/footer :: footer"></div>
+            <div>
+                <p th:insert="fragments/footer :: footer">Footer</p>
+            </div>
 
 </html>
