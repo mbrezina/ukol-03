@@ -70,12 +70,50 @@
                 <tbody>
                 <tr th:each="jedenHrac : ${zebricekHracu}" class="table-secondary">
                     <td><p th:text="${jedenHrac.poradi}">0</p></td>
-                    <td><p th:text="${jedenHrac.jmeno}" class="">Jenda</p></td>
-                    <td><p th:text="${jedenHrac.prijmeni}" class="">Perla</p></td>
-                    <td><p th:text="${jedenHrac.email}" class="">vikuna@seznam.cz</p></td>
-                    <td><p th:text="${jedenHrac.pocetVyhranychTurnaju}" class="">100</p></td>
-                    <td><p th:text="${jedenHrac.pocetTurnajuCelkem}" class="">500</p></td>
+                    <td><p th:text="${jedenHrac.jmeno}" >Jenda</p></td>
+                    <td><p th:text="${jedenHrac.prijmeni}">Perla</p></td>
+                    <td><p th:text="${jedenHrac.email}" >vikuna@seznam.cz</p></td>
+                    <td><p th:text="${jedenHrac.pocetVyhranychTurnaju}" >100</p></td>
+                    <td><p th:text="${jedenHrac.pocetTurnajuCelkem}" >500</p></td>
                 </tr>
+                <tr th:remove="all" class="table-secondary">
+                    <td><p th:remove="all">0</p></td>
+                    <td><p th:remove="all">Jenda</p></td>
+                    <td><p th:remove="all">Perla</p></td>
+                    <td><p th:remove="all">vikuna@seznam.cz</p></td>
+                    <td><p th:remove="all">100</p></td>
+                    <td><p th:remove="all">500</p></td>
+                </tr>
+                <tr th:remove="all" class="table-secondary">
+                    <td><p th:remove="all">0</p></td>
+                    <td><p th:remove="all">Jenda</p></td>
+                    <td><p th:remove="all">Perla</p></td>
+                    <td><p th:remove="all">vikuna@seznam.cz</p></td>
+                    <td><p th:remove="all">100</p></td>
+                    <td><p th:remove="all">500</p></td>
+                </tr>
+                <tr th:remove="all" class="table-secondary">
+                    <td><p th:remove="all">0</p></td>
+                    <td><p th:remove="all">Jenda</p></td>
+                    <td><p th:remove="all">Perla</p></td>
+                    <td><p th:remove="all">vikuna@seznam.cz</p></td>
+                    <td><p th:remove="all">100</p></td>
+                    <td><p th:remove="all">500</p></td>
+                </tr><tr th:remove="all" class="table-secondary">
+                    <td><p th:remove="all">0</p></td>
+                    <td><p th:remove="all">Jenda</p></td>
+                    <td><p th:remove="all">Perla</p></td>
+                    <td><p th:remove="all">vikuna@seznam.cz</p></td>
+                    <td><p th:remove="all">100</p></td>
+                    <td><p th:remove="all">500</p></td>
+                </tr>
+
+
+
+
+
+
+
                 </tbody>
             </table>
 
